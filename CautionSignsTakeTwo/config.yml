@@ -1,0 +1,58 @@
+#DO NOT CHANGE VERSION NUMBER OR DEBUG
+version: 4.0.0
+debug: false
+#Edit below to your liking
+NotOP:
+  useTheseRules: false
+  maxNumOfSigns: 2
+  maxNumOfFriendPerSign: 5
+OP:
+  signsAttackOP: true
+  breakOthersSigns: false
+General:
+  maxSignRange: 25
+Cautions:
+  lightning:
+    enter: You have entered %P's lightning strike zone.
+    leave: You have left %P's lightning strike zone.
+    warningMargin: 3
+  explode:
+    enter: You have entered %P's exploding zone.
+    leave: You have left %P's explode strike zone.
+    warningMargin: 3
+  golem:
+    enter: You have entered %P's zone and will be attacked by Golem.
+    leave: You have left %P's golem strike zone.
+    warningMargin: 3
+  ignite:
+    enter: You have entered %P's ignite zone. You have been warned.
+    leave: You have left %P's ignite strike zone..
+    warningMargin: 3
+  lavatrap:
+    enter: You have entered %P's lava trap zone. Come forward and get traped in lava.
+    leave: You have left %P's lava trap strike zone.
+    warningMargin: 3
+  random:
+    enter: You have entered %P's mistery zone. ENTER AT YOUR OWN RISK.
+    leave: You have left %P's random strike zone.
+    warningMargin: 3
+  silent:
+    enter: You have entered %P's zone. No one will ever know you died.
+    leave: You have left %P's silent strike zone.
+    warningMargin: 3
+  skydive:
+    enter: You have entered %P's zone. I hope you got a parachute.
+    leave: You have left %P's skydive strike zone.
+    warningMargin: 3
+  volley:
+    enter: You have entered %P's zone. I think I saw a robin hood camp somewhere.
+    leave: You have left %P's volley strike zone.
+    warningMargin: 3
+  watertrap:
+    enter: You have entered %P's water trap zone. Come see what it like to breath water.
+    leave: You have left %P's water trap strike zone. 
+    warningMargin: 3  
+  wolves:
+    enter: You have entered %P's zone. Make sure you don't have meat on you.
+    leave: You have left %P's wolves strike zone.
+    warningMargin: 3

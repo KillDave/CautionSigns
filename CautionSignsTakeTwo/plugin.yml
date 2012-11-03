@@ -1,0 +1,25 @@
+name: CautionSigns
+main: me.nullpointc0d3rs.CautionsSigns.CautionSigns
+version: 4.0.0
+authors: [Spartan_V23, KillDave]
+website: http://dev.bukkit.org/server-mods/cautionsigns/
+commands:
+  cautionsigns:
+    description: Stare at sign then use command.
+    usage: /<command> <pram>
+permissions:
+  CautionSigns.*:
+    description: Gives access to all Caution Signs command
+    children:
+      CautionSigns.ignore: false
+      CautionSigns.addSign: true
+      CautionSIgns.removeSign: true
+  CautionSigns.ignore:
+    description: Prevents player from being attacked by signs
+    default: false
+  CautionSigns.addSign:
+    description: Allows player to add a sign
+    default: true
+  CautionSigns.removeSign:
+    description: Allows player to remove own sign
+    default: true
